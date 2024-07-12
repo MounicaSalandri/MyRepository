@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lan="eng"> 
+  <head>
+<meta charset="UTF-8">
+<meta name="viewreport" content="width=device-width,1.0 initial-scale">
+<link rel="stylesheet" href="Survey Form.css"/>
+<title>Survey Form</title>
+</head>
+<body>
+  <h1 id="title">Survey Form</h1>
+  <div><p id="description">Please fill in the form below</p></div>
+  <form id="survey-form">
+    <div class="container">
+      <div><label id="name-label " for="first-name">Enter Your First Name <input type="text" placeholder="Enter Your First Name " class="form-control" id="name" name="name" required></input></label></div>
+    <div><label id="name-label" for="last-name">Enter Your Last Name <input type="text" class="form-control" placeholder="Enter Your Last Name" id="name" name="name" required></input></label></div>
+    <div><label id="email-label" for="email"> Email<input type="email" id="email" class="form-control"  placeholder="Enter Your Email" name="email" required></input></label></div>
+    <div><label id="number-label" for="number">
+    Enter Your Phone Number <input type="number" placeholder="Enter Your Phone Number" class="form-control" id="number" min="0" max="9" ></input></label></div>
+    
+    
+    <div>Select Your Course
+      <select id="dropdown"><option>(select one)</option>
+      <option>HTML and CSS</option>
+      <option>Javascript</option>
+      <option>Java</option></select>
+      </div>
+      <p>Time Of The Day</p>
+      
+      <div>
+      <form-group name="morning"><input type="radio" name="user-recommend" value="morning"></input>Morning
+      <input type="radio" name="user-recommend" value="afternoon"></input>Afternoon</form-group>
+      </div>
+      <div><form-group name="evening"><input type="radio" name="user-recommend" value="evening"></button>Evening
+      <input type="radio" name="user-recommend" value="night"></input>Night</form-group>
+      </div>
+      <div><p>Time Schedule</p>
+<form-group name="timing"><input type="checkbox" value="check"></input>7:00am-9:00am</form-group></div>
+<div>
+<form-group name="timing"><input type="checkbox" value="check"></input>9:00am-11:00am</form-group></div>
+<div>
+<form-group name="timing"><input type="checkbox" value="check"></input>12:00pm-2:00pm</form-group>
+</div>
+<div>
+<form-group name="timing"><input type="checkbox" value="check"></input>2:00pm-4:00pm</form-group>
+</div>
+<div>
+<form-group name="timing"><input type="checkbox" value="check"></input>4:00pm-6:00pm</form-group>
+</div>
+<div>
+<form-group name="timing"><input type="checkbox" value="check"></input>6:00pm-8:00pm</form-group>
+</div>
+    </form>
+    <p>Any Suggestions or comments?</p>
+    <textarea>comments here....</textarea>
+    <div>
+    <button id="submit">Submit</button></div>
+    </div>
+  </body>
+
+  </html>

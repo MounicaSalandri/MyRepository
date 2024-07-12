@@ -1,0 +1,36 @@
+* {
+  box-shadow: border-box;
+  background-color: #604567;
+}
+p {
+  text-align: bold;
+  color: black;
+}
+h1 {
+  text-align: center;
+  margin-left: 40%;
+  margin-right: 0%;
+}
+.container {
+  min-width: 70%;
+  margin-left: 50%;
+  margin-right: 50%;
+}
+div {
+  max-width: 90%;
+  min-width: 40%;
+  color: white;
+}
+#description {
+  text-align: center;
+  margin-left: 10rem;
+}
+textarea {
+  margin-bottom: 5px;
+  width: 70%;
+}
+#submit {
+  background-color: green;
+  margin-left: 50%;
+  margin-right: 50%;
+}

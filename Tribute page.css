@@ -1,0 +1,12 @@
+* {
+  box-shadow: border-box;
+}
+#tribute-info {
+  display: flexbox;
+  justify-content: center;
+}
+#image {
+  display: block;
+  max-width: 100%;
+  max-height: auto;
+}
